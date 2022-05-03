@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/tv_setting_title"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Settings" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_units"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="@string/units"
+            android:textSize="15sp" />
+        <RadioGroup
+            android:id="@+id/rg_units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <RadioButton
+                android:id="@+id/rb_metric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/metric"
+                android:layout_weight="1"
+                />
+            <RadioButton
+                android:id="@+id/rb_imperial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/imperial"
+                android:layout_weight="1"
+                />
+            <RadioButton
+                android:id="@+id/rb_kelvin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kelvin"
+                android:layout_weight="1"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_countries"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="@string/countries"
+            android:textSize="15sp" />
+        <RadioGroup
+            android:id="@+id/rg_countries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <RadioButton
+                android:id="@+id/rb_united_states"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/us"
+                android:layout_weight="1"
+                />
+            <RadioButton
+                android:id="@+id/rb_canada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ca"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="Zip Code"
+            android:textSize="15sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/et_zip_code"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"/>
+</LinearLayout>

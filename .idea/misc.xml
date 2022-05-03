@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/wilhe/AndroidStudioProjects/Weather/app/src/main/res/drawable/ic_settings.xml" value="0.141" />
         <entry key="..\:/Users/wilhe/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_main.xml" value="0.26063829787234044" />
+        <entry key="..\:/Users/wilhe/AndroidStudioProjects/Weather/app/src/main/res/layout/fragment_getting_parameters.xml" value="0.1" />
+        <entry key="..\:/Users/wilhe/AndroidStudioProjects/Weather/app/src/main/res/layout/fragment_settings.xml" value="1.0" />
       </map>
     </option>
   </component>

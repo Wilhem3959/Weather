@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Weather</string>
+    <string name="app_description">Weather application</string>
+    <string name="app_version">1.0</string>
+    <string name="Settings">Settings</string>
+    <string name="units">Units</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="us">United States</string>
+    <string name="ca">Canada</string>
+    <string name="countries">Countries</string>
+    <string name="update">Update</string>
 </resources>
